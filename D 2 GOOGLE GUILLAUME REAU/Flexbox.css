@@ -1,0 +1,83 @@
+#Nav
+{
+    display: flex;
+    flex-direction: row;
+	justify-content: flex-end;
+    border: 2px solid red;
+}
+
+.Menu
+{
+	padding: 10px  
+}
+
+#Section
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+	border: 2px solid blue;
+	padding-top: 160px;
+	padding-bottom: 160px;
+}
+
+#Sous-section
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+	border: 2px solid blue;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#Footer
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+	border: 2px solid yellow;
+	background: grey
+}
+
+#Head
+{
+display: flex;
+align-items: flex-start;
+border: 1px solid yellow;
+}
+
+#Low
+{
+display: flex;
+justify-content: space-between;
+flex-direction: row;
+border: 1px solid yellow;
+}  
+
+#LowLeft
+{
+display: flex;
+justify-content: flex-start
+border: 1px solid yellow;
+}
+
+#LowRight
+{
+display: flex;
+justify-content: flex-end;
+border: 1px solid yellow;*	
+}
+
+.MenuLowLeft
+{
+	display: flex;
+	justify-content: flex-start;
+}
+
+.MenuLowRight
+{
+	display: flex;
+	justify-content: flex-end;
+}
